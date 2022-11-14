@@ -5,15 +5,20 @@ buildscript {
 //        maven {
 //            url 'https://dl.bintray.com/xuuhaoo/maven'
 //        }
-        jcenter()
-        google()
+        mavenLocal()
+        maven {url"https://maven.aliyun.com/repository/central"}
+
+        maven {url"https://maven.aliyun.com/repository/google"}
+        maven { url "https://jitpack.io" }
+        maven {url"https://maven.aliyun.com/repository/gradle-plugin"}
+        mavenCentral()
 
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.3.2'
+        classpath 'com.android.tools.build:gradle:7.3.0'
         // 添加上传到jcenter所需的插件
-        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
-        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
+//        classpath 'com.github.dcendents:android-maven-gradle-plugin:2.0'
+//        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.8.4'
     }
 }
 
@@ -24,8 +29,13 @@ allprojects {
 //        maven {
 //            url 'https://dl.bintray.com/xuuhaoo/maven'
 //        }
-        jcenter()
-        google()
+        mavenLocal()
+        maven {url"https://maven.aliyun.com/repository/central"}
+
+        maven {url"https://maven.aliyun.com/repository/google"}
+        maven { url "https://jitpack.io" }
+        maven {url"https://maven.aliyun.com/repository/gradle-plugin"}
+        mavenCentral()
     }
 }
 

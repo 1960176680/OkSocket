@@ -3,9 +3,6 @@ package com.xuhao.didi.oksocket;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +27,10 @@ import com.xuhao.didi.socket.client.sdk.client.connection.NoneReconnect;
 import java.nio.charset.Charset;
 
 import static android.widget.Toast.LENGTH_SHORT;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by Tony on 2017/10/24.
