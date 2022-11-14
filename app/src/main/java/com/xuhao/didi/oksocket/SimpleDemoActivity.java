@@ -24,6 +24,8 @@ import com.xuhao.didi.socket.client.sdk.client.action.SocketActionAdapter;
 import com.xuhao.didi.socket.client.sdk.client.connection.IConnectionManager;
 import com.xuhao.didi.socket.client.sdk.client.connection.NoneReconnect;
 
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.nio.charset.Charset;
 
 import static android.widget.Toast.LENGTH_SHORT;
